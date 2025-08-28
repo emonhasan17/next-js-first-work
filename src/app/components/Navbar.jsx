@@ -10,16 +10,16 @@ const Navbar = () => {
     if(!pathName.includes('dashboard')){
         return (
             <div>
-                <nav className='flex justify-center'>
-                    <ul className='flex justify-between w-1/2'>
+                <nav className='flex justify-center border-b-2 py-4'>
+                    <ul className='flex items-center justify-center gap-10 w-1/2'>
                         <Link href='/'>
                             <li>home</li>
                         </Link>
-                        <Link href='/about'>
+                        {/* <Link href='/about'>
                             <li>About</li>
-                        </Link>
+                        </Link> */}
                         <Link href='/products'>
-                            <li>Products</li>
+                            <li>Product List</li>
                         </Link>
                     </ul>
                 </nav>
